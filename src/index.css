@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-primary {
+  background-color: #f0f2f5;
+}
+
+.text-primary {
+  color: #f0f2f5;
+}
+
+.bg-secondary {
+  color: #ff813f;
+}
+
+.bg-tertiary {
+  color: #222222;
+}
+
+.text-teritary {
+  color: #222222;
+}
+
+.text-secondary {
+  color: #ff813f;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.background {
+  background-image: url('./assets/bgecom.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.bg-banneroffer {
+  background-image: url('./assets/banneroffer.png');
+  width: 100%;
+}
